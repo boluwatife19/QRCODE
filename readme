@@ -1,0 +1,65 @@
+QR Code Generator
+QR Code Generator
+
+Table of Contents
+Description
+Features
+Technologies Used
+Getting Started
+Usage
+Description
+Welcome to the QR Code Generator! This web application allows users to generate QR codes from text input. QR codes are a convenient way to encode information and can be scanned by various devices and applications. This application leverages the Endroid QR Code library for PHP and Composer for dependency management.
+
+As the creator of this application, I wanted to provide a straightforward tool for users to generate QR codes quickly and easily. The application also allows users to customize the QR code's size and label text, enhancing its usability.
+
+Features
+QR Code Generation: Users can input text data, and the application generates a QR code representing that text.
+
+Customization: Users can customize the QR code's size and label text to suit their needs.
+
+Visual Label: A custom label with the text "GENERATED FAM" is added to the QR code.
+
+Color Customization: Users can customize the label's text color, making the QR code visually appealing.
+
+Download Option: Users can right-click on the generated QR code image to save it to their device.
+
+Technologies Used
+PHP: Used for server-side scripting and QR code generation.
+Composer: Manages PHP dependencies, including the Endroid QR Code library.
+Endroid QR Code Library: Powers the QR code generation and customization.
+HTML and CSS: Used for structuring the site and minimal styling.
+Getting Started
+To run this application locally, follow these steps:
+
+Clone the Repository: Clone this repository to your local machine using the following command:
+
+
+git clone https://github.com/Boluwatife19/qr-code-generator.git
+Install Dependencies: Use Composer to install the required dependencies:
+
+
+composer install
+Web Server: Use a local web server (e.g., XAMPP, WAMP, or MAMP) to serve the PHP files.
+
+Access the Site: Open a web browser and navigate to http://localhost/qr-code-generator/index.php to access the site.
+
+Usage
+Generate QR Code:
+
+Enter the text data you want to encode in the input field.
+Click the "Generate QR Code" button to create the QR code.
+Customize QR Code:
+
+Optionally, you can customize the QR code size and label text.
+Customize the label text color by adjusting the RGB values.
+Visual Label:
+
+The label "GENERATED FAM" is added to the QR code by default.
+Download QR Code:
+
+Right-click on the generated QR code image to save it to your device.
+
+
+Thank you for using the QR Code Generator! If you have any questions or encounter any issues, please feel free to contact us.
+
+This README was authored by Aregbesola Paul and provides an overview of the QR Code Generator and how to use it, highlighting the use of the Endroid QR Code library and Composer.
